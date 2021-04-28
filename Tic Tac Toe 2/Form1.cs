@@ -308,6 +308,7 @@ namespace Tic_Tac_Toe_2
                     PrintIfGameOver(result);
             }
         }
+        // exit from application when press escape key on keyboard
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Escape)
